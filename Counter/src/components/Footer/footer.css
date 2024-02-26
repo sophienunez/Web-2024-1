@@ -1,0 +1,16 @@
+.Footer {
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  color: #F7F5F3;
+  background-color: rgba(0, 0, 0, 0.33);
+  position: fixed;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 30px;
+}
+
+.Footer p {
+  font-size: 1.2rem;
+  margin: 0;
+}
