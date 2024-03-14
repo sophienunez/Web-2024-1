@@ -1,0 +1,32 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 30px; 
+  margin: 0;
+  display: flex; 
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh; 
+  background-image: url('https://wallpapercave.com/wp/wp3157567.jpg');
+  background-size: cover;
+  color: #F7F5F3;
+  align-items: center;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 23px;
+      background-image:linear-gradient( rgba(0,0,0,0.8), rgba(0,0,0,0)), url('https://1.bp.blogspot.com/-CCjQmhYFbv4/XrAxCTrVEpI/AAAAAAAAO-8/B0TElC25BBYcmkkzitn-UGGRDIsjn3DZACLcBGAsYHQ/w1080/assassins-creed-valhalla-wallpaper-1080x1920.jpg'); 
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+  }
+}
+
+.logo {
+  height: 3.5em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}

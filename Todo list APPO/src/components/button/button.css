@@ -1,0 +1,17 @@
+.button {
+    font-family: 'pirate-font', sans-serif;
+    font-size: 1rem;
+    background-color: #734A29;
+    color: #F7F5F3;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  .button:hover {
+    background-color: #5B3920;
+  }
+  

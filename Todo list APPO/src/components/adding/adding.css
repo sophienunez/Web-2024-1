@@ -1,0 +1,45 @@
+.task-input {
+  padding: 0px;
+  margin: 20px;
+}
+
+.task-input input {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #3290a35b;
+  border-bottom: 1px solid #3290a3;
+  border-top: 1px solid #3290a3;
+  border-left: 1px solid #3290a3;
+  border-right: none;
+  color: #F4F7F3;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+}
+
+.task-input input::placeholder {
+  color: #F4F7F3;
+}
+
+.task-input button {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #171D1D;
+  color: #F4F7F3;
+  border-bottom: 1px solid #3290a3;
+  border-top: 1px solid #3290a3;
+  border-right: 1px solid #3290a3;
+  border-left: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.task-input button:hover {
+  background-color: #3290a3;
+}
+  
+@media screen and (max-width: 768px) {
+  .header-list li {
+    font-size: 14px;
+  }
+}
