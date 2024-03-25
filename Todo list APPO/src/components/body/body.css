@@ -1,0 +1,104 @@
+.container {
+  position: relative;
+  width: 500px;
+  background-color: #3290a35b;
+  border: 1px solid #3290a3;
+  color: #F7F5F3; 
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+  ul {
+    padding: 0px;
+  }
+  
+  li {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  #description {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    color: yellow;
+    margin-top: 20px;
+  }
+
+  .music-button {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ef710a;
+    color: #F7F5F3;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .music-button:hover {
+    background-color: #5B3920;
+  }
+
+  .clearAll {  
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #171D1D;
+  color: #F4F7F3;
+  border-bottom: 1px solid #3290a3;
+  border-top: 1px solid #3290a3;
+  border-left: 1px solid #3290a3;
+  border-right: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  }
+
+  .completeTask {  
+    position: absolute;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #171D1D;
+    color: #F7F5F3;
+    border-bottom: 1px solid #3290a3;
+    border-top: 1px solid #3290a3;
+    border-left: 1px solid #3290a3;
+    border-right: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    right: 0;
+  }
+
+  /* .deleteTask {
+    position: absolute;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #ef710a;
+    color: #F7F5F3;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+    right: 0;
+  } */
+
+  .deleteTask:hover {
+    background-color: #5B3920;
+  }
