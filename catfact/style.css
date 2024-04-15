@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(https://marketplace.canva.com/EAFhwfMq3ds/1/0/1600w/canva-colorful-cute-cats-illustration-desktop-wallpaper-KBBZLdpjLcM.jpg);
+  margin: 0;
+  display: flex; 
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  body {
+      width: 100%;
+      background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zM193YWxscGFwZXJfcGF0dGVybl9vZl9jdXRlX3RpbnlfYnJvd25fY2F0X2hlYV9hNjllZWZhYS03MmJkLTRmYTYtOTA1Ni02MmJhYjkyYzc3ZjRfMS5qcGc.jpg);
+  }
+}
