@@ -1,0 +1,40 @@
+.gif-favorites {
+    background-color: #F7F0EA;
+}
+
+.gif-favorites-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.go-back {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 20px;
+}
+
+.favorite-item {
+    width: 247px;
+    margin: 0 60px;
+}
+
+.gif-favorites img {
+    width: 247px;
+    height: 247px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 27px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+
+.remove-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+}
